@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>SalesManager1</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>Order_Data__c</members>
+        <members>Product_Data__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Order_Data__c.Customer_ID__c</members>
+        <members>Order_Data__c.Customers_Favourite_Colour__c</members>
+        <members>Order_Data__c.Date_Time__c</members>
+        <members>Order_Data__c.Discount__c</members>
+        <members>Order_Data__c.Name</members>
+        <members>Order_Data__c.Product__c</members>
+     <members>Order_Data__c.Qty__c</members>
+       <members>Order_Data__c.Sale_No__c</members>
+<name>CustomField</name>
+    </types>
+
+    <types>
+        <members>Product_Data__c.Product_ID__c</members>
+        <members>Product_Data__c.Name</members>
+        <members>Product_Data__c.Retail_Price__c</members>
+ <name>CustomField</name>
+    </types>
+     
+    <version>62.0</version>
+</Package>
